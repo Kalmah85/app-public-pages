@@ -2,15 +2,18 @@
 
 ## Project goal
 
-Maintain a public repository for static pages associated with applications whose source repositories may remain private.
+Maintain a generic public repository for static pages associated with applications and projects whose source repositories may remain private.
 
 Primary content includes:
 - privacy policies;
 - terms of use;
 - app/store information pages;
+- static informational pages required by external platforms;
 - static assets intentionally meant for public distribution.
 
 This repository does not contain application source code.
+
+No individual application is the default scope of this project. Application-specific facts, assumptions and workflows apply only to the relevant page or task and must not become project-wide defaults.
 
 ## Public repository rule
 
@@ -24,7 +27,7 @@ Never commit:
 - internal infrastructure details that are not required for the public pages;
 - personal information unless explicitly approved for publication.
 
-## Application-specific policies
+## Application-specific content
 
 Privacy policies and similar declarations must describe the verified behavior of the relevant application.
 
@@ -104,6 +107,14 @@ Authorization applies only to the explicitly approved operation and scope.
 Do not assume this repository is authorized for READONLY or DEVELOPMENT execution on the shared AI Development Platform.
 
 Platform eligibility, routing, workers, execution contracts and shared platform governance belong to the global AI Development Platform / OpenCode project and must be verified there when relevant.
+
+## Project State
+
+The Project State is a continuity checkpoint, not a source of truth.
+
+Keep it focused on repository-wide state: repository and branch, canonical checkout, GitHub Pages configuration and verified public URLs, currently published pages, completed milestones, current stop point and next safe step.
+
+Do not turn application-specific implementation details into project-wide assumptions.
 
 ## Validation
 
