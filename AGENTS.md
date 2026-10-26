@@ -102,19 +102,9 @@ This includes:
 
 Authorization applies only to the explicitly approved operation and scope.
 
-## AI Development Platform
+## Scheda del repository
 
-Do not assume this repository is authorized for READONLY or DEVELOPMENT execution on the shared AI Development Platform.
-
-Platform eligibility, routing, workers, execution contracts and shared platform governance belong to the global AI Development Platform / OpenCode project and must be verified there when relevant.
-
-## Project State
-
-The Project State is a continuity checkpoint, not a source of truth.
-
-Keep it focused on repository-wide state: repository and branch, canonical checkout, GitHub Pages configuration and verified public URLs, currently published pages, completed milestones, current stop point and next safe step.
-
-Do not turn application-specific implementation details into project-wide assumptions.
+La [scheda descrittiva Google Drive](https://docs.google.com/document/d/1LNPAcq8JJF2_2WKRJ07_1zPk8UOzOuATn8imSt-CXgM/edit) documenta scopo, pagine, struttura e confini del repository. Le informazioni relative all'infrastruttura AI sono gestite separatamente nelle istruzioni del progetto globale.
 
 ## Validation
 
